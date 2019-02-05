@@ -1,0 +1,249 @@
+html {  
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#firstSection {
+    background: black;
+    height: 80px;
+    color: white;
+    position: relative;
+}
+
+#firstSection #headerTitle {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translate(0, -50%);
+}
+
+#firstSection h2 {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    display: inline;
+}
+
+#firstSection i {
+    font-size: 26px;
+    margin-right: 5px;
+    color: dodgerblue;
+}
+
+#firstSection #headerlinks {
+    position: absolute;
+    top: 50%;
+    right: 280px;
+    transform: translate(0, -50%);
+}
+
+#firstSection #headerlinks a {
+    text-decoration: none;
+    color: dimgrey;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+#firstSection #headerlinks a:hover {
+    color: #E9E6FF;
+}
+
+#firstSection #userControlButtons {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+#firstSection #userControlButtons a{
+    text-decoration: none;
+    padding: 13px 30px;
+    margin-right: 12px;
+    border-radius: 6px;
+}
+
+#loginBtn {
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    transition: .5s;
+}
+
+#signupBtn {
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    transition: .5s;
+}
+
+#signupBtn:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#sectionOne {
+    height: 900px;
+    background: url("dark.jpg") no-repeat center / cover;
+    position: relative;
+}
+
+#sectionOne > div {
+    height: 900px;
+    background-color: rgba(0,0,0,.8);
+}
+
+#plansHeaderContainer {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+#plansHeaderContainer h2 {
+    color: #FBFEF9;
+    letter-spacing: 4px;
+    margin-bottom: 30px
+}
+
+#plansHeaderContainer i {
+    color: dimgrey;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+#sectionOne h4 {
+    color: lightgrey;
+    text-align: center;
+    color: dodgerblue;
+}
+
+#sectionOne p {
+    word-spacing: 1px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#productCols {
+    width: 100%;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: #202425;
+    padding: 10px 40px;
+    position: absolute;
+    bottom:0%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#sectionTwo {
+    height: 900px;
+    background: url('pc1.jpg') no-repeat center / cover;
+}
+
+#sectionTwo > div {
+    height: 900px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#sectionTwo #ltH1 {
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+
+#sectionTwo #ltH4 {
+    color: dodgerblue;
+    position: relative;
+    top: 20%;
+    left: 8%;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+#sectionTwo #rtH1 {
+    color: white;
+    position: relative;
+    top: 81%;
+    left: 75%;
+}
+
+
+#sectionTwo #rtH4 {
+    color: dodgerblue;
+    position: relative;
+    top: 81%;
+    left: 78%;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+#sectionThree {
+    height: 900px;
+    background: url("blur2.jpg") no-repeat center / cover;
+    position: relative;
+}
+
+#sectionThree > div {
+    height: 900px;
+    background-color: rgba(0,0,0,.8);
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    height: 300px;
+  
+}
+
+#footerColumnsContainer {
+    position: absolute;
+    column-count: 4;
+    column-gap: 40px;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 60%;
+    height: 50%;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div h5 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer div a {
+    display: block;
+    color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    margin: 2px;
+    padding: 5px;
+    transition: .5s;
+    font-size: 14px;
+}
+
+footer div a:hover {
+    color: dodgerblue;
+    
+}
